@@ -23,4 +23,9 @@ public class ClientController {
 
         return client;
     }
+
+    @RequestMapping("/hello")
+    public String hello() {
+        return "Welcome to AssessmentApp";
+    }
 }
